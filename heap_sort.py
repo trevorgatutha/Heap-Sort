@@ -21,7 +21,7 @@ def build_max_heap(arr):
     # Build a max heap from the input array
     for i in range(n // 2 - 1, -1, -1):
         heapify(arr, n, i)
-
+        
 def heap_sort(arr):
     n = len(arr)
 
